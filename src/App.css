@@ -28,12 +28,15 @@ dd {
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     background-color: #FFFFFE;
+    
 }
+
 
 ul,
 ol {
