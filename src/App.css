@@ -67,6 +67,16 @@ select {
     font: inherit;
 }
 
+.slide-in {
+    transition: 1s all;
+    transform: translate(0);
+}
+
+.slide-out {
+    transition: 1s all;
+    transform: translate(0, 100px);
+}
+
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01ms !important;
