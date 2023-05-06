@@ -14,9 +14,9 @@ const LegalizationSection = () => {
     useAppearAnimation(ref);
 
     return (
-        <section className="bg-blue-50 py-16 sm:py-32" ref={ref}>
+        <section className="bg-blue-50 py-16 sm:py-32" >
             <Container>
-                <div className="flex flex-col 2xl:flex-row items-center">
+                <div ref={ref} className="flex flex-col 2xl:flex-row items-center">
                     <div className="max-w-2xl text-center mb-20 2xl:mr-28 2xl:mb-0 2xl:text-start">
                         <h2 className="font-playfair bold text-4xl sm:text-6xl leading-normal mb-8">Why do we help with legalization?</h2>
                         <p className="font-poppins text-xl tracking-wide text-gray-400">We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes complicated.</p>

@@ -17,7 +17,7 @@ const GetStartedSection = () => {
     return (
         <section ref={ref} className="relative">
             <Container>
-                    <div className="inline-flex flex-col mt-40 mb-10 2xl:mb-36 text-center 2xl:text-start w-full 2xl:w-auto items-center justify-center 2xl:items-start 2xl:justify-start">
+                    <div className="inline-flex flex-col mt-32 sm:mt-40 mb-10 2xl:mb-36 text-center 2xl:text-start w-full 2xl:w-auto items-center justify-center 2xl:items-start 2xl:justify-start">
                         <div className="inline-flex flex-col sm:flex-row  items-center bg-blue-100 py-1.5 px-1 border rounded-3xl">
                             <Button text="New"  padding={"6px 30px"} borderRadius="26.5px"/>
                             <p className="ml-2 mt-2 sm:mt-0 font-plus-jakarta-sans text-main">Stay connected to the upcoming & Recent jobs</p>
