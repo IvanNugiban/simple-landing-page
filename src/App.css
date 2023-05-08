@@ -74,7 +74,7 @@ select {
 
 .slide-out {
     transition: 1s all;
-    transform: translate(0, 100px);
+    transform: translate(0, 70px);
 }
 
 @media (prefers-reduced-motion: reduce) {

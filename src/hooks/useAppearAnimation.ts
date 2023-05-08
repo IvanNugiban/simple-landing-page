@@ -14,7 +14,7 @@ const useAppearAnimation = (observableElement: RefObject<HTMLElement>) => {
                 setIntersectingState(entry.isIntersecting);
                 if (entry.isIntersecting) observer.disconnect();
             },
-            {rootMargin: "-300px"}
+            {rootMargin: "-100px"}
         );
 
         observer.observe(observableElement.current);

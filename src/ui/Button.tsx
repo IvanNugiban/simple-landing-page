@@ -15,9 +15,11 @@ interface IProps extends StyledButtonProps{
 const StyledButton = styled.button<StyledButtonProps>`
   padding: ${({padding}) => padding};
   border-radius: ${({borderRadius}) => borderRadius};
+
+  
 `
 
-const Button = ({text, onClick, padding, borderRadius = "8px"} : IProps) => {
+const Button = ({ text, onClick, padding, borderRadius = "8px"} : IProps) => {
     return (
         <StyledButton padding={padding} borderRadius={borderRadius} onClick={onClick} className="bg-main text-white font-plus-jakarta-sans font-bold">
             {text}
