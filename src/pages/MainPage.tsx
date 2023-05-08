@@ -5,10 +5,11 @@ import LegalizationSection from "../components/LegalizationSection";
 import AchievementSection from "../components/AchievementSection";
 import ClientsSection from "../components/ClientsSection";
 import QuestionsSection from '../components/QuestionsSection';
+import Footer from '../components/Footer';
 
 const MainPage = () => {
     return (
-        <div>
+        <>
             <Header/>
             <main>
                 <GetStartedSection/>
@@ -17,8 +18,8 @@ const MainPage = () => {
                 <ClientsSection/>
                 <QuestionsSection/>
             </main>
-
-        </div>
+            <Footer/>
+        </>
     );
 };
 
