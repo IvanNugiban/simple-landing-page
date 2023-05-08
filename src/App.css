@@ -67,6 +67,19 @@ select {
     font: inherit;
 }
 
+.headerActive {
+    border-bottom: 1px solid rgba(129, 122, 143, 0.4);
+
+    transition: 1s all;
+}
+
+.headerInactive {
+    border-bottom: 1px solid white;
+
+    transition: 1s all;
+}
+
+
 .slide-in {
     transition: 1s all;
     transform: translate(0);
@@ -76,6 +89,7 @@ select {
     transition: 1s all;
     transform: translate(0, 70px);
 }
+
 
 @media (prefers-reduced-motion: reduce) {
     * {

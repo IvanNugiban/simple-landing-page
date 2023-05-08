@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Container from "../ui/Container";
 import Logo from "../assets/Logo.png";
 import MagnifyingGlass from "../assets/MagnifyingGlass.png"
@@ -9,8 +9,38 @@ import HamburgerMenu from "../ui/HamburgerMenu";
 
 
 const Header = () => {
+
+    const headerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      window.onscroll = onScroll;
+    
+      return () => {
+        window.onscroll = null;
+      }
+      
+    }, [])
+    
+    function onScroll() {
+
+        if (!headerRef.current) return;
+        
+        const scroll = window.scrollY;
+
+        if (scroll > 50) {
+            headerRef.current.classList.add("headerActive");
+            headerRef.current.classList.remove("headerInective")
+        }
+
+        else {
+            headerRef.current.classList.remove("headerActive");
+            headerRef.current.classList.add("headerInective")
+        }
+    }
+    
+
     return (
-        <div  className="fixed top-0 w-full z-10 bg-white">
+        <div ref={headerRef}  className="fixed top-0 w-full z-10 bg-white">
             <Container>
                 <div className="flex justify-between  py-6 px-5 ">
                     <div className="flex items-center">
