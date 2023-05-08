@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/simple-landing-page/static/css/main.893c8739.css",
+    "main.js": "/simple-landing-page/static/js/main.87142afc.js",
+    "static/media/hero.png": "/simple-landing-page/static/media/hero.9b961a63ff5593b455d1.png",
+    "static/media/QuestionsImage.png": "/simple-landing-page/static/media/QuestionsImage.fb31638bf1e9ea64bff6.png",
+    "static/media/AchievementsBackground.png": "/simple-landing-page/static/media/AchievementsBackground.006c71c9f2e04a2a2cc6.png",
+    "index.html": "/simple-landing-page/index.html",
+    "main.893c8739.css.map": "/simple-landing-page/static/css/main.893c8739.css.map",
+    "main.87142afc.js.map": "/simple-landing-page/static/js/main.87142afc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.893c8739.css",
+    "static/js/main.87142afc.js"
+  ]
+}
